@@ -163,3 +163,7 @@ Penjelasan:
 `label` → supaya teks label terlihat tebal dan agak terpisah dari elemen sebelumnya.
 `select, input[type="submit"]` → biar dropdown, listbox, dan tombol punya ukuran lebar yang sama (100%) dan bentuk seragam.
 `input[type="submit"]:hover` → bikin efek warna berubah saat kursor diarahkan ke tombol (efek interaktif).
+
+### Hasil Screenshoot
+![Gambar WhatsApp 2025-10-06 pukul 13 36 15_e572a735](https://github.com/user-attachments/assets/7fbf2a16-6987-417a-a51a-0df1e048efd1)
+
