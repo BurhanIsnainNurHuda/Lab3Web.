@@ -7,8 +7,8 @@
 
 #  Praktikum 3 - Form Dropdown & Listbox Multiple Selection
 
-Halo semuanya! 👋  
-Di praktikum kali ini aku bikin form sederhana pakai HTML.  
+Halo! 
+Di praktikum kali ini saya bikin form sederhana pakai HTML.  
 Tujuannya buat latihan bikin **dropdown** dan **listbox** yang bisa milih lebih dari satu item.
 
 ---
