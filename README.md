@@ -24,6 +24,91 @@ Isinya:
 Tampilannya juga saya kasih sedikit CSS seperti tugas sebelum nya biar gak polos banget.
 
 ---
+## Untuk Code Bisa Kalian Coba di vs code
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Data Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f6fa;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 25px;
+            width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        select, input[type="submit"] {
+            margin-top: 8px;
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    </head>
+    <body>
+    <h2>Formulir Data Mahasiswa</h2>
+
+    <form action="#" method="post">
+        <!-- Dropdown Menu -->
+        <label for="fakultas">Pilih Fakultas:</label>
+        <select name="fakultas" id="fakultas" required>
+            <option value="">-- Pilih Fakultas --</option>
+            <option value="ft">Fakultas Teknik</option>
+            <option value="fisip">Fakultas Ilmu Sosial & Politik</option>
+            <option value="fekon">Fakultas Ekonomi</option>
+            <option value="fkip">Fakultas Keguruan & Ilmu Pendidikan</option>
+        </select>
+
+        <!-- Listbox Multiple -->
+        <label for="minat">Bidang Minat (boleh pilih lebih dari satu):</label>
+        <select name="minat[]" id="minat" multiple size="5">
+            <option value="programming">Pemrograman</option>
+            <option value="design">Desain Grafis</option>
+            <option value="jaringan">Jaringan Komputer</option>
+            <option value="ai">Kecerdasan Buatan</option>
+            <option value="data">Analisis Data</option>
+        </select>
+
+        <!-- Tombol Submit -->
+        <input type="submit" value="Simpan Data">
+    </form>
+    </body>
+     </html>
 
 ##  Langkah-langkahnya
 
