@@ -43,6 +43,16 @@ Terus aku tulis struktur HTML dasarnya kayak gini:
     </body>
     </html>
 
+Penjelasan:
+
+`<!DOCTYPE html>` → ngasih tahu browser kalau dokumen ini pakai versi HTML5.
+`<html lang="id">` → kode halaman web, dan lang="id" artinya bahasa Indonesia.
+`<head>` → tempat taruh info penting kayak judul halaman, encoding, dan style CSS.
+`<meta charset="UTF-8">` → biar huruf-huruf (termasuk huruf Indonesia) bisa tampil dengan benar.
+`<meta name="viewport" ...>` → bikin tampilan halaman tetap proporsional kalau dibuka di HP.
+`<title>` → teks yang muncul di tab browser (judulnya “Formulir Data Mahasiswa”).
+`<body>` → semua isi halaman yang bakal muncul di browser, kayak form, teks, tombol, dll.
+
 2. Nambahin Dropdown
 
 Bagian ini buat milih fakultas.
@@ -57,6 +67,18 @@ Saya pake tag `<select>` sama `<option>` biar bisa milih satu aja.
     <option value="fkip">Fakultas Keguruan & Ilmu Pendidikan</option>
     </select>
 
+Penjelasan:
+
+`<label>` → teks penjelas untuk form input. Atribut for="fakultas" nyambung ke id="fakultas".
+`<select>` → membuat menu dropdown.
+`name="fakultas"` → nama variabel yang dikirim saat form disubmit.
+`id="fakultas"` → penghubung dengan label.
+`required` → pengguna wajib pilih salah satu sebelum bisa klik submit.
+`<option>` → isi pilihan yang muncul di dropdown.
+`value` → nilai yang dikirim ke server.
+`Teks di dalam <option>` adalah yang dilihat pengguna di layar.
+`Baris pertama (-- Pilih Fakultas --)` cuma placeholder agar pengguna tahu harus memilih dulu.
+
 3. Nambahin Listbox Multiple Selection
 
 Di sini saya bikin biar user bisa milih lebih dari satu bidang minat.
@@ -70,6 +92,14 @@ Di sini saya bikin biar user bisa milih lebih dari satu bidang minat.
     <option value="data">Analisis Data</option>
     </select>
 
+Penjelasan:
+
+Sama kayak dropdown, tapi di sini kita tambahin dua atribut penting:
+`multiple` → artinya user bisa pilih lebih dari satu item.
+`size="5"` → jumlah item yang langsung kelihatan di layar tanpa scroll.
+`name="minat[]"` → tanda [] artinya datanya bisa dikirim dalam bentuk array (karena bisa lebih dari satu pilihan).
+`<option>` → masing-masing adalah bidang minat yang bisa dipilih (programming, desain, jaringan, dll).
+Kalau kamu tekan `Ctrl (di Windows)` atau `Cmd (di Mac)` sambil klik beberapa opsi, kamu bisa pilih lebih dari satu minat.
 4. Kasih Tombol Kirim
 
 Terakhir saya tambahin tombol submit biar form-nya bisa dikirim.
@@ -123,3 +153,13 @@ Supaya tampilannya lebih enak dilihat dan gak kayak tugas seadanya
     background-color: #2980b9;
     }
     </style>
+
+Penjelasan:
+
+`<style>` → tempat nulis CSS langsung di dalam file HTML (internal CSS).
+`body` → ngatur font, warna background, dan padding seluruh halaman.
+`h2` → bikin judul di tengah dan warnanya lebih gelap.
+`form` → ngasih warna putih, sudut melengkung (border-radius), bayangan (box-shadow), dan posisi di tengah.
+`label` → supaya teks label terlihat tebal dan agak terpisah dari elemen sebelumnya.
+`select, input[type="submit"]` → biar dropdown, listbox, dan tombol punya ukuran lebar yang sama (100%) dan bentuk seragam.
+`input[type="submit"]:hover` → bikin efek warna berubah saat kursor diarahkan ke tombol (efek interaktif).
