@@ -251,4 +251,8 @@ Penjelasan:
 
 ### Hasil Screenshoot
 ![Gambar WhatsApp 2025-10-06 pukul 13 36 15_e572a735](https://github.com/user-attachments/assets/7fbf2a16-6987-417a-a51a-0df1e048efd1)
+![Gambar WhatsApp 2025-10-06 pukul 14 06 26_56de529f](https://github.com/user-attachments/assets/1666a5a8-c055-427a-b491-723782e8c9f4)
+![Gambar WhatsApp 2025-10-06 pukul 14 04 44_30c33d4f](https://github.com/user-attachments/assets/1c5b16c4-d71b-497f-9c65-30085dbb9ddd)
+
+
 
